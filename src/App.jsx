@@ -5,6 +5,7 @@ import './App.css'
 import TextInput from './components/TextInput'
 import ApiGet from './components/ApiGet'
 import CardApi from './components/CardApi'
+import CardApi2 from './components/CardApi2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
       {/* <TextInput /> */}
       <br />
       {/* <ApiGet/> */}
-      <CardApi/>
+      {/* <CardApi/> */}
+      <CardApi2/>
     </>
   )
 }
