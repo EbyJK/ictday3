@@ -2,8 +2,8 @@ import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } f
 import axios from 'axios';
 import React, { useState } from 'react'
 
-const CardApi = () => {
-    var[output,setOutput]=useState([]);
+const CardApi = () => {           //setOutput has tthe capability to change output
+    var[output,setOutput]=useState([]);  //use effect is used to load into website
     useEffect(()=>{
         axios.get("https://dummyapi.online/api/pokemon")
         .then((res)=>{console.log(res.data);
